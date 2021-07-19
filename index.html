@@ -1,6 +1,9 @@
 <html>
 
 <HEAD><TITLE>BEM VINDO!!!</TITLE>
+
+<meta charset="UTF-8">
+
 <style type="text/css"> 
 body { 
   background:#FFFFFF; 
@@ -70,18 +73,57 @@ _height:2em;
 #menu .e, #menu .d { 
   display:inline; 
 } 
+
+div.box {
+	height: 100px; 
+	width: 320px;
+	display: inline-block;
+}
+
+#style1 { 
+  font-family: Consolas; 
+  font-size: 50px; 
+  font-weight: bold; 
+  color: #000000;
+  text-align: center; 
+} 
+
 </style> 
  
 </HEAD>
 
 <BODY>
-<div id="menu"> 
-    <ul> 
-    <li><a href="aviao/index.html"/>Avião</a></li> 
-    
-     
-   </ul> 
- </div> 
+
+<TABLE BORDER="2" BGCOLOR="blue" >
+
+<TD WIDTH="150" HEIGHT="120">
+
+
+
+<MARQUEE onmouseover="this.stop()" onmouseout="this.start()" WIDTH="150" HEIGHT="120" direction="up" >
+<A HREF="https://mfopina.github.io/scratch/"><IMG WIDTH="150" HEIGHT="120" SRC="imagens\Scratch.jpg" alt="Scratch"></A><BR>
+<A HREF="https://mfopina.github.io/JavaScriptEdutech/"><IMG WIDTH="150" HEIGHT="120" SRC="imagens\JavaScript.jpg" alt="Java Script"></A><BR>
+<A HREF="https://mfopina.github.io/construct/"><IMG WIDTH="150" HEIGHT="120" SRC="imagens\construct.jpg" alt="Construct"></A><BR>
+
+</MARQUEE>
+
+
+</TD>
+</TABLE>
+
+<p> 
+
+<div id="style1">
+
+	Jogos Construct
+
+	</div><BR>
+	
+	<div class="box">
+    <a href="aviao/index.html"/><IMG SRC="imagens\aviao.jpg" BORDER="5" WIDTH="300" HEIGHT="300" HSPACE="30" VSPACE="70" ALT="Desafio nas alturas"></a>
+    <span> Desafio nas alturas </span>
+</div>
+
 
 </BODY>
 
